@@ -1,0 +1,13 @@
+
+
+  Testing Apis
+[0mGET / [32m200 [0m12.589 ms - 1829[0m
+    ✓ Test Home Page (45ms)
+[0mGET /personas [32m200 [0m107.941 ms - 1986[0m
+    ✓ Test page personas (112ms)
+[0mGET /api/persona [32m200 [0m29.777 ms - 345[0m
+    ✓ Test API listaPersonas
+
+
+  3 passing (211ms)
+

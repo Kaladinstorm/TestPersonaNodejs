@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "PORTDB": "27017",
+        "HOSTDB": "localhost",
+        "USERDB": "",
+        "PASSDB": "",
+        "DBNAME": "people23DB",
+        "PORT": "3000"
+    }
+}

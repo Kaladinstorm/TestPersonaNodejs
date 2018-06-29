@@ -1,0 +1,28 @@
+{
+  "name": "people-23",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "startmon": "nodemon ./bin/www",
+    "test": "mocha test/app.test.js "
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "^2.6.1",
+    "express": "~4.16.0",
+    "gulp-mocha": "^6.0.0",
+    "http-errors": "~1.6.2",
+    "mongoose": "^5.1.7",
+    "morgan": "~1.9.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "gulp": "^3.9.1",
+    "gulp-run": "^1.7.1",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
+  }
+}

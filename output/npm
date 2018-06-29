@@ -1,0 +1,26 @@
+
+> people-23@0.0.0 test /home/jgaldames/Proyectos/nodejs/people_23
+> mocha test/*.test.js
+
+
+
+  Testing Apis
+[0mGET / [32m200 [0m12.677 ms - 1829[0m
+    ✓ Test Home Page (47ms)
+    1) Test page personas
+[0mGET /api/persona [32m200 [0m21.923 ms - 345[0m
+    ✓ Test API listaPersonas
+
+
+  2 passing (108ms)
+  1 failing
+
+  1) Testing Apis
+       Test page personas:
+     Uncaught Error: connect ECONNREFUSED 127.0.0.1:3000
+      at Object._errnoException (util.js:1022:11)
+      at _exceptionWithHostPort (util.js:1044:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+
+
+
